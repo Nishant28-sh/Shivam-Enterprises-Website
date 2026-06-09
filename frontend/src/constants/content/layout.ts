@@ -27,7 +27,7 @@ export const layoutCopy: Record<
     contactUs: "Contact Us",
     lang: "हिंदी",
     rights: "All rights reserved.",
-    strip: "Innovating for a Greener Tomorrow",
+    strip: "Smart Solutions for a Greener Planet",
     footerTagline: "Precision Agriculture Technology",
     footerDescription: "Precision drone spraying for modern farms. DGCA certified pilots.",
     pages: "Pages",
