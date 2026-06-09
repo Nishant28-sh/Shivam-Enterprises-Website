@@ -1,0 +1,71 @@
+import { Mail, MapPin, Phone } from "lucide-react";
+import type { Language } from "@/types";
+
+export const contactCopy = {
+  en: {
+    badge: "Contact Shivam Enterprises",
+    heading: "Talk to a Field Specialist",
+    body: "Share your farm details and our operations team will suggest the right spray plan, estimated timeline, and service package.",
+    details: [
+      { label: "Phone", value: "+91 8708639550", icon: Phone },
+      { label: "Email", value: "hello@shivam enterprises.in", icon: Mail },
+      {
+        label: "Address",
+        value:
+          "Ground Floor, CS-03, 235, Anantraj Assarya, Neemrana, Alwar, Rajasthan – 301705",
+        icon: MapPin,
+      },
+    ],
+    response: "Response in one business day",
+    formHeading: "Request a Consultation",
+    formBody: "Complete the form and we will call you within one business day.",
+    name: "Name",
+    namePlaceholder: "Enter your full name",
+    farmSize: "Farm Size (Acres)",
+    farmSizePlaceholder: "e.g. 25",
+    phoneNumber: "Phone Number",
+    phonePlaceholder: "Enter your mobile number",
+    serviceNeeded: "Service Needed",
+    selectService: "Select a service",
+    spray: "Pesticide Spray",
+    nutrient: "Nutrient Boost",
+    mapping: "Crop Mapping",
+    submit: "Submit Enquiry",
+    successTitle: "Enquiry submitted",
+    successMessage: "Our team will call you within one business day.",
+    mapTitle: "Operations Hub",
+  },
+  hi: {
+    badge: "Shivam Enterprises से संपर्क",
+    heading: "फील्ड विशेषज्ञ से बात करें",
+    body: "अपने खेत की जानकारी साझा करें और हमारी ऑपरेशन्स टीम आपके लिए सही स्प्रे प्लान, अनुमानित समय और सेवा पैकेज बताएगी।",
+    details: [
+      { label: "फोन", value: "+91 98765 43210", icon: Phone },
+      { label: "ईमेल", value: "hello@shivam enterprises.in", icon: Mail },
+      {
+        label: "पता",
+        value:
+          "ग्राउंड फ्लोर, CS-03, 235, अनंतराज अस्सरया, नीमराना, अलवर, राजस्थान – 301705",
+        icon: MapPin,
+      },
+    ],
+    response: "एक कार्य दिवस में उत्तर",
+    formHeading: "परामर्श का अनुरोध करें",
+    formBody: "फॉर्म भरें, हम एक कार्य दिवस में आपको कॉल करेंगे।",
+    name: "नाम",
+    namePlaceholder: "अपना पूरा नाम दर्ज करें",
+    farmSize: "खेत का आकार (एकड़)",
+    farmSizePlaceholder: "जैसे 25",
+    phoneNumber: "फोन नंबर",
+    phonePlaceholder: "अपना मोबाइल नंबर दर्ज करें",
+    serviceNeeded: "आवश्यक सेवा",
+    selectService: "सेवा चुनें",
+    spray: "कीटनाशक स्प्रे",
+    nutrient: "पोषक तत्व स्प्रे",
+    mapping: "फसल मैपिंग",
+    submit: "पूछताछ भेजें",
+    successTitle: "पूछताछ भेज दी गई",
+    successMessage: "हमारी टीम एक कार्य दिवस में आपको कॉल करेगी।",
+    mapTitle: "ऑपरेशन्स हब",
+  },
+} satisfies Record<Language, object>;
